@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.formDiv {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 400;
+    background-color: rgb(212, 194, 170);
+    color: black !important;
+}
+
+.inputField {
+    margin: 10px;
+    width: 200px
+}
+
+.fieldDiv {
+    margin: 10px;
+}
+
+.tableCls {
+    color: white !important;
+    background-color: black !important;
+}
+
+.filter-icon {
+    width: 95px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #eee;
+}
+
+.MuiTableHead-root {
+    background-color: #EFF8FF;
+}
+
+.tableDiv {
+    width: 70%;
+    margin: 20px;
+}
+
+.star {
+    visibility: hidden;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.star:before {
+    content: "\2606";
+    position: absolute;
+    visibility: visible;
+}
+
+.star:checked:before {
+    content: "\2B50";
+    position: absolute;
+    fill: goldenrod;
+}
+
+.searchFiled {
+    border: 1px solid gainsboro;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.MuiDialog-paperFullWidth {
+    width: 250px !important;
+}
