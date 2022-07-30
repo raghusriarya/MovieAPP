@@ -16,7 +16,7 @@ This project has 3 components :
 
 **ModelComponent :** This Component used to add new movie record , fill all the field and submit to add new record.
 
-**ScreenShots : **
+**ScreenShots :**
 
 **List Of Movies**
 <img width="1049" alt="Screen Shot 2022-07-30 at 4 45 01 PM" src="https://user-images.githubusercontent.com/30890142/181908401-891232af-0e0d-4356-93a9-af1ade216ca6.png">
